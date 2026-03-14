@@ -1,0 +1,5 @@
+# name=input('gfghfhg')
+# print('welcome to python',name)
+# no1=int(input('enter a number'))
+# no2=int(input('eneter a number'))
+# print(no1+no2)

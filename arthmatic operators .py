@@ -1,3 +1,7 @@
+
+# ******************ARTHMATIC OPERATORS****************************** 
+
+
 # x=int(input("enter number"))
 # y=int(input("enter number"))
 # z=x+y
@@ -33,3 +37,4 @@
 # z=x%y
 # print("power",z)
 
+# ******************ARTHMATIC OPERATORS****************************** 

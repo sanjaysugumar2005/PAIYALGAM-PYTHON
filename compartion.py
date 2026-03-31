@@ -56,9 +56,13 @@
 # print("stop",stop)
 
 # age = int(input("enter your age: "));
-
 # elg = age >= 18;
 # print("your age is",elg);
-
 # notelg = age<=18;
-# # print("your are not elg :",notelg)
+# print("your are not elg :",notelg)
+
+# ********************************************************************************************************************
+
+
+
+

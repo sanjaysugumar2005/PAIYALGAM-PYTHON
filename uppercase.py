@@ -39,12 +39,7 @@
 # print(single)
 
 #########################################################################
-# userid=san
-# userpass=32345
-# userid=int(input("enter a user"))
-# userpass=int(input("enter a pass"))
-# verify=userid,split()=userpass.split()=
-# print(verify)
+
 
 #########################################################################
 

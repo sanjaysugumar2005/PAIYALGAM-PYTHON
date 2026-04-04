@@ -1,3 +1,4 @@
+
 # num=int(input("enter a number: "))
 # if num>0:
 #     print("positive")
@@ -7,17 +8,13 @@
 #     print("zero")
 # print("end of program")
 
-
-
-
-
-
+# **********************QUESTION 11***************************
+ 
 # age=int(input("enter your age:"))
 # if age>18:
 #     print("you can vote")
 # else:
 #     print("you can  not vote ")
-
 
 
 
@@ -93,7 +90,7 @@
 
 
 
-###################### MALL ENETR GO BACK##############################
+###################### MALL ENETR GO BACK ##############################
 # arms=(input("wellcome we check "))
 # if arms==("no arms"):
 #     print("allowed ")

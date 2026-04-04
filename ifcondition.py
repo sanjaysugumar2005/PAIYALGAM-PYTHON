@@ -5,8 +5,9 @@
 #     print("negative")
 # if num==0:
 #     print("zero")
-
 # print("end of program")
+
+
 # age=int(input("enter your age:"))
 # if age>18:
 #     print("you can vote")
@@ -18,15 +19,7 @@
 #     print("even")
 # else:
 #      print("")
-
-
 # print(num*2)
-
-
-
-
-
-
 
 
 
@@ -89,6 +82,10 @@
 # if temp<=20:
 #     print("cold")
 
+
+# **********************MALL CHECK***********************
+
+
 # arms=(input("wellcome we check "))
 # if arms==("no arms"):
 #     print("allowed ")
@@ -100,6 +97,10 @@
 #     print("exit have a nice day ")
 # else:
 #     print("exit")
+
+
+# ********************** GRADE WORK  *****************************
+
 
 # mark=int(input("enter a mark"))
 # if mark>=81 and mark<=80:
@@ -113,7 +114,10 @@
 # else:
 #     print("fail")
 
+# **************** GRADE  ************************************************
+
 # given mark 90 a grade, 80 b grade,70 c grade,60 d grade.
+
 # mark=int(input("enter your mark:"))
 # if mark>=90:
 #     print("a grade")
@@ -125,7 +129,6 @@
 #     print(" d grade")
 # else:
 #     print("fail")
-
 
 
 #  5. Given two number find max

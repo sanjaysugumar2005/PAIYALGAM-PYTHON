@@ -1,4 +1,6 @@
-# for x in  range (1,11,1):
+#FOR 
+
+# for x in range(1,11,1):
 #     print(x)
 
 # for x in range (10,-1,-2):
@@ -81,7 +83,7 @@
 #         print(total)
 # nat()
 
-# 8. Find factorial of given number
+# 8. Find torial of given number
 #  Ex: input 5 ->  5 * 4 * 3 * 2 * 1 -> 120
 
 # total=0

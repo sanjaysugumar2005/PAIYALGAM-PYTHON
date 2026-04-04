@@ -17,8 +17,9 @@
 #         if i%2==0:
 #             total=total+i**2
 #     print(total)  
-# sum_of_square_of_even_number(10)  
+# sum_of_square_of_even_number(10)
 
+if 
 
 
         

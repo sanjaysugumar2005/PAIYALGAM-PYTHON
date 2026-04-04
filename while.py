@@ -46,7 +46,7 @@
 # 3. Print  Table given a number 
 #  a. Ex: 2 -> 1x2, 2x2, 3x2 … 10x2
 
-# def table(num):
+# def (num):
 #     x=1
 #     while x<=10:
 #         print(x,"x",num,"=",x*num)
@@ -57,13 +57,13 @@
 # 4. Fi)nd all odd numbers until given number
 #  a. Ex: 10 -> 1, 3, 5, 7, 9
 
-def odd(num):
-    x=1
-    while x<=num:
-        if x%2!=0:
-            print(x)
-        x+=1
-odd(19)
+# def odd(num):
+#     x=1
+#     while x<=num:
+#         if x%2!=0:
+#             print(x)
+#         x+=1
+# odd(19)
 
 
 # 5. Find all numbers divisible by 3 until given number
@@ -80,11 +80,11 @@ odd(19)
 #  a. Ex: 50 -> 15, 30, 45
 
 # def divi(num):
-#     x=1
-#     while x <=  num :
-#         if x%3==0 and x%5==0:
-#             print(x)
-#         x=x+1
+x=1
+while x <=50:
+    if x%3==0 and x%5==0:
+            print(x)
+    x=x+1
 # divi(50)
 
 # 7. Sum of natural numbers until given number
@@ -103,14 +103,14 @@ odd(19)
 # 8. Find factorial of given number
 #  Ex: input 5 ->  5 * 4 * 3 * 2 * 1 -> 120
 
-# def nat(num):
+# def nat():
 #     total=1
 #     x=1
-#     while x<=num:
+#     while x<=5:
 #         total=x*total
 #         x=x+1 
 #         print(total)
-# nat(5)
+# nat()
 
 
 

@@ -1,86 +1,86 @@
-# # # # list
+# # # list
 
-# # # # non-primitive data type
+# # # non-primitive data type
 
-# # # # Create
-# # # # - list()
-# # # # - []
+# # # Create
+# # # - list()
+# # # - []
 
-# numbers = [1, 2, 3, 4, 5]
-# print(numbers)
-# print(type(numbers))
+numbers = [1, 2, 3, 4, 5]
+print(numbers)
+print(type(numbers))
 
-# names = ["Sanjay", "Parithi"]
-# print(names)
+names = ["Sanjay", "Parithi"]
+print(names)
 
-# ex = [1, "two", 3.4, False]
-# print(ex)
+ex = [1, "two", 3.4, False]
+print(ex)
 
-# ex = [1, [2, 3], 4]
-# print(ex)
+ex = [1, [2, 3], 4]
+print(ex)
 
-# numbers = [1, 2, 3, 4, 5]
+numbers = [1, 2, 3, 4, 5]
 
-# # # index access, zero based index
-# print(numbers[4])
+# # index access, zero based index
+print(numbers[4])
 
-# for num in numbers:
-#     print(num)
+for num in numbers:
+    print(num)
 
-# for char in "Password":
-#     print(char)
+for char in "Password":
+    print(char)
 
-# numbers = [1, 2, 3, 4, 5]
+numbers = [1, 2, 3, 4, 5]
 
-# for i in numbers:
-#     print(i * 2)
+for i in numbers:
+    print(i * 2)
 
-# total = 0
+total = 0
 
-# for i in numbers:
-#     total = total + i
+for i in numbers:
+    total = total + i
 
-# print(total)
+print(total)
 
 
-# numbers = [1, 2, 3, 4, 5]
-# fact = 1
+numbers = [1, 2, 3, 4, 5]
+fact = 1
 
-# for i in numbers:
-#     fact = fact * i
+for i in numbers:
+    fact = fact * i
 
-# print(fact)
+print(fact)
 
-# numbers = [1, 2, 3, 4]
-# print(numbers[2])
+numbers = [1, 2, 3, 4]
+print(numbers[2])
 
-# numbers[2] = 20
-# print(numbers)
+numbers[2] = 20
+print(numbers)
 
-# # Create
-# chars = list("Hello")
-# print(chars)
+# Create
+chars = list("Hello")
+print(chars)
 
-# for c in "Hello":
-#     print(c)
+for c in "Hello":
+    print(c)
 
-# # list()
-# # []
+# list()
+# []
 
-# # any type,
-# # duplicates
-# # index based read, write
-# # loop - for, while
+# any type,
+# duplicates
+# index based read, write
+# loop - for, while
 
-# numbers = [1, 2, 3, 4, 5]
+numbers = [1, 2, 3, 4, 5]
 
-# x = 0
-# while x < len(numbers):
-#     print(numbers[x])
-#     numbers[x] = numbers[x] ** 2
-#     x = x + 1
+x = 0
+while x < len(numbers):
+    print(numbers[x])
+    numbers[x] = numbers[x] ** 2
+    x = x + 1
 
-# print(numbers)
+print(numbers)
 
-# for i in numbers:
-#     print(i**2)
+for i in numbers:
+    print(i**2)

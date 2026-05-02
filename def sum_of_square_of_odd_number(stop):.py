@@ -19,7 +19,6 @@
 #     print(total)  
 # sum_of_square_of_even_number(10)
 
-if 
 
 
         

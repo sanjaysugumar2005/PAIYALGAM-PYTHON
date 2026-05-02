@@ -10,8 +10,8 @@ while True:
 
     print(">(1).Name")
     print(">(2).Phone Number")
-    print(">(3).Email")
-    print(">(4).Exit")
+    # print(">(3).Email")
+    # print(">(4).Exit")
     option=int(input("Select Number (1/2/3/4):"))
 
     if option==1:

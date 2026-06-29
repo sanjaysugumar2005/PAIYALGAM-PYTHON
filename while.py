@@ -103,14 +103,30 @@ while x <=50:
 # 8. Find factorial of given number
 #  Ex: input 5 ->  5 * 4 * 3 * 2 * 1 -> 120
 
-# def nat():
-#     total=1
-#     x=1
-#     while x<=5:
-#         total=x*total
-#         x=x+1 
-#         print(total)
-# nat()
+# def fat():
+total=1
+x=1
+while x<=6:
+    total=x*total
+    x=x+1
 
+print(total)
+# fat()
 
+# text = "Python"
+# print(text[0:3])
+student = {
+    "name":"Sanjay",
+    "mark":90
+}
 
+print(student.keys())
+print(student.values())
+print(student.items())
+
+text = "hello world"
+
+print(text.upper())
+print(text.lower())
+print(text.split())
+print(text.replace("world","python"))

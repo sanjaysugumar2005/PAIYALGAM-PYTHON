@@ -5,11 +5,10 @@
     #             1,3,5,7,9
     #             5,10,15,20,25
 
-
 # x=0
 # while x<=4:
 #     x=x+1
-#     print(x)
+#     print(x , end=" ")
 
 # x=0
 # while x<=9:

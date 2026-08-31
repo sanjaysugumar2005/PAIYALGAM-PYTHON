@@ -1,86 +1,27 @@
-# # # list
+# # text = "Sanjay"
+# # reverse = ""
+# # for char in text:
+# #     reverse = char + reverse
 
-# # # non-primitive data type
+# # print(reverse)
 
-# # # Create
-# # # - list()
-# # # - []
+# for i in range(1, 101):
+#     if i % 3 == 0 and i % 5 == 0:
+#         print("FizzBuzz")
+#     elif i % 3 == 0:
+#         print("Fizz")
+#     elif i % 5 == 0:
+#         print("Buzz")
+#     else:
+#         print(i)
 
-numbers = [1, 2, 3, 4, 5]
-print(numbers)
-print(type(numbers))
 
-names = ["Sanjay", "Parithi"]
-print(names)
+numbers = [1, 2, 3, 2, 4, 5, 1]
 
-ex = [1, "two", 3.4, False]
-print(ex)
-
-ex = [1, [2, 3], 4]
-print(ex)
-
-numbers = [1, 2, 3, 4, 5]
-
-# # index access, zero based index
-print(numbers[4])
+duplicates = []
 
 for num in numbers:
-    print(num)
+    if numbers.count(num) > 1 and num not in duplicates:
+        duplicates.append(num)
 
-for char in "Password":
-    print(char)
-
-numbers = [1, 2, 3, 4, 5]
-
-for i in numbers:
-    print(i * 2)
-
-total = 0
-
-for i in numbers:
-    total = total + i
-
-print(total)
-
-
-numbers = [1, 2, 3, 4, 5]
-fact = 1
-
-for i in numbers:
-    fact = fact * i
-
-print(fact)
-
-numbers = [1, 2, 3, 4]
-print(numbers[2])
-
-numbers[2] = 20
-print(numbers)
-
-# Create
-chars = list("Hello")
-print(chars)
-
-for c in "Hello":
-    print(c)
-
-# list()
-# []
-
-# any type,
-# duplicates
-# index based read, write
-# loop - for, while
-
-numbers = [1, 2, 3, 4, 5]
-
-x = 0
-while x < len(numbers):
-    print(numbers[x])
-    numbers[x] = numbers[x] ** 2
-    x = x + 1
-
-print(numbers)
-
-for i in numbers:
-    print(i**2)
+print(duplicates)
